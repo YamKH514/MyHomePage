@@ -1,7 +1,7 @@
 ---
 import { linksData } from './data'
 import BaseLayout from '@/layouts/BaseLayout.astro'
-import ListProjects from '@/components/ListProjects.vue'
+import ListLinks from '@/components/ListLinks.vue'
 ---
 
 <BaseLayout title="友链" description="友链列表">
@@ -17,7 +17,7 @@ import ListProjects from '@/components/ListProjects.vue'
                   {i.title}
                 </span>
               </h2>
-              <ListProjects list={i.links} />
+              <ListLinks list={i.links} />
             </div>
           ))}
         </div>

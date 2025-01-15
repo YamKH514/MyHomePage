@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { ref } from 'vue'
+
 defineProps<{
   list: {
     text: string
@@ -7,6 +9,8 @@ defineProps<{
     href: string
   }[]
 }>()
+
+const defaultImage = ref('/default.png')
 </script>
 
 <template>
@@ -19,7 +23,7 @@ defineProps<{
     <li v-for="link in list" :key="link.text" container-link w-full flex items-center rd-2>
       <a flex items-center target="_blank" :href="link.href" :aria-label="link.text">
         <div ml-2 mr-4 pt-2>
-          <i text-4xl inline-block :class="link.icon || 'i-carbon-unknown'" />
+          <img :src="link.icon || defaultImage" alt="Icon" style="width: 4rem; display: inline-block;">
         </div>
         <div font-normal lh-tight>
           <div text-lg hover:text-main>{{ link.text }}</div>

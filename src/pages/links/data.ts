@@ -5,15 +5,15 @@ export const linksData: LinksData = [
     title: 'Blog',
     links: [
       {
-        text: '星空之窗',
-        description: '星河景明的个人博客。',
-        icon: 'i-carbon-campsite',
+        text: '星河景明',
+        description: '学如逆水行舟，不进则退。',
+        icon: 'https://minio.drivefly.cn/image-risinggalaxy/myselfWhite.png',
         href: 'https://blog.rising-galaxy.top/',
       },
       {
         text: 'Drive_FLY\'s Blog',
         description: 'Drive_FLY\'s Blog.',
-        icon: 'i-carbon-campsite',
+        icon: '',
         href: 'https://blog.drivefly.cn/',
       },
     ],
@@ -24,7 +24,7 @@ export const linksData: LinksData = [
       {
         text: 'CFC Co-Learning',
         description: 'CFC 共学计划主页。',
-        icon: 'i-carbon-campsite',
+        icon: 'https://learning.bibibai.top/output.png',
         href: 'https://learning.bibibai.top/',
       },
     ],
