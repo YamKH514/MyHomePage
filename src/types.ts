@@ -8,9 +8,9 @@ export type Pages = 'pages'
 
 export type CollectionPages = CollectionEntry<Pages>
 
-export type ProjectData = Array<{
+export type LinksData = Array<{
   title: string
-  projects: Array<{
+  links: Array<{
     text: string
     description?: string
     icon?: string

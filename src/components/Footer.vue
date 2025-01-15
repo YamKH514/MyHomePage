@@ -21,5 +21,13 @@ import { getLinkTarget } from '@/utils/link'
       <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ new Date().getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author
       }}.</span>
     </div>
+    <div flex>
+      <p>
+        Powered by
+        <a nav-link href="https://astro.build/" target="_blank">Astro</a>
+        &
+        <a nav-link href="https://astro.build/themes/details/vitesse-theme-for-astro/" target="_blank">Vitesse theme for Astro</a>
+      </p>
+    </div>
   </footer>
 </template>

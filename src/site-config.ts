@@ -1,39 +1,34 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Ren',
+  title: '任师傅的小站',
+  subtitle: '这是一个副标题，以后或许能写点什么',
+  description: '这是网站的介绍，以后或许能写点什么',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'ren@mail.unren.top',
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
+      href: 'https://github.com/YamKH514',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
     },
     {
       text: 'Twitter',
-      href: '',
+      href: '/404',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
     },
     {
-      text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
-    },
-    {
       text: 'Instagram',
-      href: '',
+      href: '/404',
       icon: 'i-simple-icons-instagram',
     },
     {
       text: 'Youtube',
-      href: '',
+      href: '/404',
       icon: 'i-simple-icons-youtube',
     },
   ],
@@ -44,20 +39,16 @@ export const siteConfig = {
     },
     navLinks: [
       {
-        text: 'Blog',
+        text: '文章',
         href: '/blog',
       },
       {
-        text: 'Notes',
-        href: '/blog/notes',
+        text: '友链',
+        href: '/links',
       },
       {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-      {
-        text: 'Projects',
-        href: '/projects',
+        text: '关于',
+        href: '/about',
       },
     ],
   },
@@ -69,11 +60,11 @@ export const siteConfig = {
       },
       {
         text: 'Notes',
-        href: '/blog/notes',
+        href: '/building',
       },
       {
         text: 'Talks',
-        href: '/blog/talks',
+        href: '/building',
       },
     ],
   },
@@ -88,12 +79,8 @@ export const siteConfig = {
         href: '/md-style',
       },
       {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
+        text: 'E Mail',
+        href: 'mailto:ren@mail.unren.top',
       },
     ],
   },
