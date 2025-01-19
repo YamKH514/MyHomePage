@@ -1,11 +1,12 @@
 ---
+import WelcomeSlogan from '@/components/WelcomeSlogan.vue'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import siteConfig from '@/site-config'
 ---
 
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
-    <h1 class="text-title">你好👋</h1>
+    <WelcomeSlogan />
     <p>欢迎来到任师傅的小站😘</p>
   </article>
 </BaseLayout>
