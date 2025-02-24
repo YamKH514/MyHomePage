@@ -29,5 +29,13 @@ import { getLinkTarget } from '@/utils/link'
         <a nav-link href="https://astro.build/themes/details/vitesse-theme-for-astro/" target="_blank">Vitesse theme for Astro</a>
       </p>
     </div>
+    <div>
+      <!-- Cloudflare Web Analytics -->
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon="{&quot;token&quot;: &quot;05fdab945c14443ab7a8f79380ee439c&quot;}"
+      />
+    </div>
   </footer>
 </template>
